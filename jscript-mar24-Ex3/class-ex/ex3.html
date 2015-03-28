@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script type="text/javascript">
+        var clock=new Object();
+            clock.hour=function() {
+            var d = new Date();
+                return d.getHours();}
+        clock.min=function() {
+            var d = new Date();
+            return d.getMinutes();}
+        clock.seconds=function() {
+            var d = new Date();
+            return d.getSeconds();}
+        clock.time=function(){
+            var d=new Date();
+            return d.getTime();
+        }
+
+        document.writeln("min"+clock.min());
+
+        document.writeln("hour"+clock.hour());
+        document.writeln("sec"+clock.seconds());
+        document.writeln("time"+clock.time());
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

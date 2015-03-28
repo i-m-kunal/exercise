@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<script type="text/javascript">
+    function rep()
+    {
+var a= prompt("enter the id");
+var b=prompt("Enter the value to change");
+        document.getElementById(a).innerHTML=b;
+        document.getElementById(a).innerHTML=b;
+    disp1();
+    }
+
+    function disp1()
+    {
+        document.getElementById("timeDisp").innerHTML="<br><br> Date In a Specified Format :"+getformatdate();
+
+
+    }
+</script>
+</head>
+<body>
+<script type="text/javascript" src="q1.js"></script>
+<div id="timeDisp">This is Div Section For Date.</div>
+<br><br><br>
+<p id="p1"> This is text</p>
+<input type="text" id="t1" value="hello"><br>
+<input type="text" id="t2" value="world"><br>
+<input type="button" onclick="rep()" value="change">
+
+
+</body>
+</html>

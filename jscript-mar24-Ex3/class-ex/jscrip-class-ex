@@ -1,0 +1,17 @@
+[[ Class Exercise]]
+
+Ex1
+.In Application.js Make a function which returns the current date/time.
+.Also make another function which returns the Date passed in a defined format.(“dd Month, yyyy HH:MM:ss”);
+
+Ex2
+.Make A Function which takes the “ID”, of the element and “HTML” as the parameter, And replaces the content of the element by the HTML supplied.
+
+.Make a “div” on the Html Page with id=”timeDisp”. Write a function which uses all the functions developed in previous exercises to display current formatted time in the “div” created above.
+
+Ex3
+.Create an Object named Clock and encapsulate all functions in it.
+
+Ex4
+.Make an Interval which calls the method updateTime every one second.
+Make a button which can stop this interval.

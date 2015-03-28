@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+     #mydiv{ width: 200px; height: 200px; margin:150px;background: gray;}
+    </style>
+
+
+</head>
+
+<div id="mydiv" onmouseover="changeBackground(this.id, 'red');"
+     onmouseout="changeBackground(this.id, 'gray')">
+
+    on mouseover event background change it in red color<br>
+    in mouseout event background change it in back to the gray color;
+
+
+</div>
+
+
+<script type="text/javascript">
+    function changeBackground(id, color) {
+        document.getElementById(id).style.background = color;
+    }
+</script>
+
+
+
+</body>
+</html>

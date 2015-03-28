@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="intcalc()">
+
+
+
+<script type="text/javascript">
+
+    function intcalc()
+    {
+       var amount =parseFloat(prompt("Enter the Amount(Rs)","0"));
+        var rate =parseFloat(prompt("Enter the Rate of Interest(%)","0"));
+        var duration =parseFloat(prompt("Enter the Duration(No.of years)","0"));
+        var intrst=(amount*rate*duration)/100;
+        alert("Interest is :"+intrst  );
+
+    }
+</script>
+
+</body>
+</html>
