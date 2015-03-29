@@ -1,0 +1,51 @@
+---- Initialize a Git Repository
+
+		[ubuntu@kukuPC:~/git1$ git init
+		 Initialized empty Git repository in /home/ubuntu/git1/.git/]
+
+---- Add files to the repository
+
+		[ubuntu@kukuPC:~/git1$ git add file2.txt
+		 ubuntu@kukuPC:~/git1$ git add file2.txt ]
+
+---- Unstage 1 file
+		[git rm --cached file2.txt]
+
+
+---- Commit the files
+		[ubuntu@kukuPC:~/git1$ git commit -m "My COmmit Message "]
+
+---- Add a remote
+		[ubuntu@kukuPC:~/git1$ git remote add origin https://github.com/kuku8/repo1.git]
+
+---- Undo changes to a particular file
+		[ubuntu@kukuPC:~/git1$ git checkout abc.txt] // For discarding any changes.
+
+---- Push changes to Github
+		[ubuntu@kukuPC:~/git1$ git push -u origin master]
+
+---- Clone the repository
+		[ubuntu@kukuPC:~/git1/temp$ git clone https://github.com/kuku8/repo1.git]
+
+---- Add changes to one of the copies and pull the changes in the other.
+ 		[ubuntu@kukuPC:~/git1/temp/repo1$ git pull https://github.com/kuku8/repo1.git master]
+
+
+---- Add changes to both repos, try to push from both without taking a pull.
+		[[ubuntu@kukuPC:~/git1/temp/repo1$ git add abc.txt
+		  ubuntu@kukuPC:~/git1/temp/repo1$ git commit -m "commit from alternate location"
+			]]
+
+		[[ubuntu@kukuPC:~/git1$ git add file2.txt
+		  ubuntu@kukuPC:~/git1$ git commit -m "file2 added"]]
+
+---- Check differences between a file and its staged version
+		[[ubuntu@kukuPC:~/git1/temp/repo1$ git diff abc.txt ]]
+
+
+- Ignore a few files to be checked in
+- Create a new branch. Diverge them with commits
+- Edit the same file at the same line on both branches and commit
+- Try merging and resolve merge conflicts
+- Stash the changes and pop them
+

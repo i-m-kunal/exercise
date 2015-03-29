@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="Jquery.js"></script>
+<script type="text/javascript">
+
+function func()
+{ var str =$("p:first").text();
+	if(str=="Hi")
+	{$("p").text("Hello");}
+	
+	else
+	{$("p").text("Hi");}
+
+}
+
+</script>
+</head>
+<body>
+
+<a href='​http://www.google.com/policy.pdf​'>Policy</a>
+<a href='www.yahoo.com/logo.png' title='yahoo logo'>View Logo</a>
+<a href='http://www.facebook.com' title='Facebook'>Facebook</a>
+<br/>
+<br/>
+
+<p id="p1">Hi</p>
+<br/>
+<br/>
+<input type="Button" id="b1" value="click & see " onClick='func()'>
+</body>
+</html>
