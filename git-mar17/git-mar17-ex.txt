@@ -43,8 +43,11 @@
 		[[ubuntu@kukuPC:~/git1/temp/repo1$ git diff abc.txt ]]
 
 
-- Ignore a few files to be checked in
-- Create a new branch. Diverge them with commits
+---- Ignore a few files to be checked in
+         [[ubuntu@kukuPC:~/kuku$ git update-index --assume-unchanged abc.txt]]
+
+---- Create a new branch. Diverge them with commits
+
 - Edit the same file at the same line on both branches and commit
 - Try merging and resolve merge conflicts
 - Stash the changes and pop them
