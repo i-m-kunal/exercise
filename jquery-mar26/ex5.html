@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="Jquery.js">
+</script>
+</head> 
+<body>
+<input type="button" id="button1" value="Click" height="50" width="20"/>
+<div style="background:green;height:100px;width:100px;position:absolute;left:0"/>
+<script>
+$(document).ready(function(){
+	$("#button1").click(function(){
+	if($('div').offset().left=="250")
+		$("div").animate({left:'0px'})
+	else
+		$("div").animate({left:'250px'})
+	
+	});
+});
+</script>
+</body>
+</html>
