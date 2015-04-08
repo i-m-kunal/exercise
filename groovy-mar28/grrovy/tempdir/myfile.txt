@@ -1,0 +1,19 @@
+This is the temperary
+
+document.
+File name abcd copied 
+File name abcd~ copied 
+File name xyz~ copied 
+this is document
+two.
+File name xyz copied 
+File name abcd.txt copied 
+This is the temperary
+
+document.
+File name abcd copied 
+File name abcd~ copied 
+File name xyz~ copied 
+this is document
+two.
+File name xyz copied 

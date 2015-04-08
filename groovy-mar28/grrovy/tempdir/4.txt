@@ -1,0 +1,11 @@
+1 This is the temperary
+3 document.
+5 File name abcd~ copied 
+7 this is document
+9 File name xyz copied 
+11 This is the temperary
+13 document.
+15 File name abcd~ copied 
+17 this is document
+19 File name xyz copied 
+Thisisthetemperarydocument.FilenameabcdcopiedFilenameabcd~copiedFilenamexyz~copiedthisisdocumenttwo.FilenamexyzcopiedFilenameabcd.txtcopiedThisisthetemperarydocument.FilenameabcdcopiedFilenameabcd~copiedFilenamexyz~copiedthisisdocumenttwo.Filenamexyzcopied

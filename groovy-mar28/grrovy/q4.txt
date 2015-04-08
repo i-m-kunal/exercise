@@ -1,0 +1,37 @@
+if('test') 
+{ printlnn "test evaluated to true inside if" }
+
+a) "Test"
+  Print true because it is a string which evaluates to true. 
+
+b)'null'
+  Print true because 'null' is consider as a string.
+
+c) null
+  Print False because it is consider as null which evaluates to false.
+
+
+d) 100
+Print true because non zero(0)  evaluates to true.
+
+e) 0
+Print false because it is zero which evaluates to false.
+
+f) empty list
+List a=[]
+if(a)
+{return true;}
+else 
+return false
+
+
+         //Print False because the list is empty & return null.
+
+g) list with all vaues as null List list = new ArrayList()
+List a =new ArrayList()
+if(a)
+{return true;}
+else 
+return false
+
+      // Print False because the arrayList is empty & returns null.
